@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context="com.example.android.music.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        style="@style/imageHeader"
+        android:src="@drawable/muzic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#0D47A1" />
+
+    <TextView
+        android:id="@+id/play"
+        style="@style/textHeader"
+        android:background="#D32F2F"
+        android:text="@string/PlayActivity" />
+
+    <TextView
+        android:id="@+id/album"
+        style="@style/textHeader"
+        android:background="#C62828"
+        android:text="@string/AlbumActivity" />
+
+    <TextView
+        android:id="@+id/buy"
+        style="@style/textHeader"
+        android:background="#B71C1C"
+        android:text="@string/BuyActivity" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="PlayActivity">Play</string>
+    <string name="BuyActivity">Buy Music</string>
+    <string name="AlbumActivity">Album</string>
+</resources>
+
