@@ -4,12 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.android.music.PlayActivity">
 
     <ImageView
         android:id="@+id/playButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="24dp"
         android:src="@drawable/play" />
+
+    <TextView
+        style="@style/activityText"
+        android:text="@string/play"
+        android:textColor="@color/colorPrimaryDark" />
+
 </LinearLayout>

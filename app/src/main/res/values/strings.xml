@@ -3,5 +3,8 @@
     <string name="PlayActivity">Play</string>
     <string name="BuyActivity">Buy Music</string>
     <string name="AlbumActivity">Album</string>
+    <string name="play">Click on Play Icon to play your Music</string>
+    <string name="buy">Buy your favorite songs</string>
+    <string name="album">Click button to add songs to the album</string>
 </resources>
 
